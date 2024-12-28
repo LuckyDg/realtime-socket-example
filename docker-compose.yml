@@ -1,0 +1,36 @@
+services:
+  backend:
+    build:
+      context: ./realtime-backend
+    container_name: node-backend
+    ports:
+      - '65000:65000'
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mydb
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./realtime-react-vite
+    container_name: react-frontend
+    ports:
+      - '64000:4173'
+    environment:
+      - VITE_API_URL=http://backend:65000
+    networks:
+      - app-network
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo-db
+    ports:
+      - '27017:27017'
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

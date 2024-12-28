@@ -1,0 +1,86 @@
+[2024-12-28 10:42:54] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:42:55] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:42:57] INFO: Cliente conectado: vWYR58ARfwAVYxkzAAAB
+[2024-12-28 10:43:13] INFO: Cliente desconectado: vWYR58ARfwAVYxkzAAAB
+[2024-12-28 10:45:18] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:45:19] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:45:37] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:45:38] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:47:23] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:47:24] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:49:35] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:50:05] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:51:10] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:52:00] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:54:49] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:54:50] INFO: Cliente conectado: 0VUdAJjdgnl-F-X4AAAB
+[2024-12-28 10:54:51] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:55:09] INFO: Cliente conectado: JxWHH0WSofz96uTWAAAD
+[2024-12-28 10:55:38] INFO: Evento recibido: nuevo_usuario -> ""
+[2024-12-28 10:55:38] ERROR: Error al manejar nuevo_usuario: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[2024-12-28 10:56:46] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:56:46] INFO: Cliente conectado: Lbha3A7Gkp72pYV1AAAB
+[2024-12-28 10:56:47] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:56:55] INFO: Cliente conectado: X4V7Td2B6zuf_5zjAAAD
+[2024-12-28 10:56:59] INFO: Evento recibido: nuevo_usuario -> ""
+[2024-12-28 10:56:59] ERROR: Error al manejar nuevo_usuario: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[2024-12-28 10:57:35] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:57:35] INFO: Cliente conectado: r9JG5LgC0SdnseBhAAAB
+[2024-12-28 10:57:36] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:59:14] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 10:59:14] INFO: Cliente conectado: SnKTt763TP0VT_t6AAAB
+[2024-12-28 10:59:15] INFO: Base de datos conectada exitosamente
+[2024-12-28 10:59:43] INFO: Cliente conectado: kZQM0FZaJ9ldh5y2AAAD
+[2024-12-28 10:59:46] INFO: Evento recibido: nuevo_usuario -> ""
+[2024-12-28 10:59:46] ERROR: Error al manejar nuevo_usuario: User validation failed: nombre: Path `nombre` is required., email: Path `email` is required.
+[2024-12-28 11:01:11] INFO: Cliente conectado: KtdKNz-DzAnPz-WoAAAF
+[2024-12-28 11:01:14] INFO: Evento recibido: nuevo_usuario -> {"nombre":"John Doe","email":"johndoe@example.com"}
+[2024-12-28 11:01:14] INFO: Nuevo conteo emitido: 1
+[2024-12-28 11:01:39] INFO: Evento recibido: nuevo_usuario -> {"nombre":"John Doe","email":"johndoe@example.com"}
+[2024-12-28 11:01:39] ERROR: Error al manejar nuevo_usuario: E11000 duplicate key error collection: db_users.users index: email_1 dup key: { email: "johndoe@example.com" }
+[2024-12-28 11:01:50] INFO: Evento recibido: nuevo_usuario -> {"nombre":"John Does","email":"johndoe@example.com"}
+[2024-12-28 11:01:50] ERROR: Error al manejar nuevo_usuario: E11000 duplicate key error collection: db_users.users index: email_1 dup key: { email: "johndoe@example.com" }
+[2024-12-28 11:02:09] INFO: Evento recibido: nuevo_usuario -> {"nombre":"John Does","email":"johndoe@example.com"}
+[2024-12-28 11:02:09] ERROR: Error al manejar nuevo_usuario: E11000 duplicate key error collection: db_users.users index: email_1 dup key: { email: "johndoe@example.com" }
+[2024-12-28 11:11:14] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 11:11:16] INFO: Cliente conectado: sVl7Ct3q7n_TqL4bAAAB
+[2024-12-28 11:11:16] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:11:19] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 11:11:19] INFO: Cliente conectado: lZXCOBTRqkDerMd5AAAB
+[2024-12-28 11:11:20] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:11:35] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 11:11:36] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:11:37] INFO: Cliente conectado: nOodWsRyci8HXfiwAAAB
+[2024-12-28 11:11:44] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 11:11:44] INFO: Cliente conectado: JceKt0HgOUx0HLvxAAAB
+[2024-12-28 11:11:45] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:12:11] INFO: Servidor escuchando en http://localhost:65000
+[2024-12-28 11:12:12] INFO: Cliente conectado: vHVPXsWXdY5QGzxdAAAB
+[2024-12-28 11:12:12] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:16:07] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:19:12] INFO: Base de datos conectada exitosamente
+[2024-12-28 11:26:16] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:20:38] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:25:01] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:27:02] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:27:13] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:31:25] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:31:49] INFO: Base de datos conectada exitosamente
+[2024-12-28 12:39:55] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:08:14] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:31:07] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:47:38] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:47:44] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:48:54] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:49:53] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:53:10] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:53:17] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:53:57] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:55:00] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:57:04] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:59:11] INFO: Base de datos conectada exitosamente
+[2024-12-28 13:59:19] INFO: Base de datos conectada exitosamente
+[2024-12-28 14:00:28] INFO: Base de datos conectada exitosamente
+[2024-12-28 14:01:03] INFO: Base de datos conectada exitosamente
+[2024-12-28 14:05:08] INFO: Base de datos conectada exitosamente
+[2024-12-28 14:05:40] INFO: Base de datos conectada exitosamente
